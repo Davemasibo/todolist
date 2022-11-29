@@ -35,9 +35,6 @@ export default function App() {
               )
   })
           }
-          {/* <Task text={'Task 1'} />
-          <Task text={'Task 2'} /> */}
-
         </View>
       </View>
       {/* Write a task */}
@@ -60,7 +57,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#E8EAED',
   },
-  
+
   tasksWrapper:{
     paddingTop: 50,
     paddingHorizontal: 20,
@@ -104,5 +101,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
+    
   },
 });
